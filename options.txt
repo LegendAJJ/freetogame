@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\ADMIN\OneDrive\Documents\VuGen\Scripts\WebHttpHtml67
+-IC:\Program Files (x86)\Micro Focus\Virtual User Generator\include
+-ec:\users\admin\onedrive\documents\vugen\scripts\webhttphtml67\\logfile.log
+c:\users\admin\onedrive\documents\vugen\scripts\webhttphtml67\\combined_WebHttpHtml67.c
+c:\users\admin\onedrive\documents\vugen\scripts\webhttphtml67\\pre_cci.c

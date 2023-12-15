@@ -1,0 +1,177 @@
+Virtual User Script started at: 14-12-2023 22:14:50
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2021.1.0 for Windows 10; build 460 (Apr 22 2021 19:27:24)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\ADMIN\OneDrive\Documents\VuGen\Scripts\WebHttpHtml67\\default.cfg"  	[MsgId: MMSG-27141]
+Vuser directory: "C:\Users\ADMIN\OneDrive\Documents\VuGen\Scripts\WebHttpHtml67"  	[MsgId: MMSG-27052]
+Vuser output directory: "C:\Users\ADMIN\OneDrive\Documents\VuGen\Scripts\WebHttpHtml67"  	[MsgId: MMSG-27050]
+Operating system's current working directory: "C:\Users\ADMIN\OneDrive\Documents\VuGen\Scripts\WebHttpHtml67"  	[MsgId: MMSG-27048]
+UTC (GMT) start date/time   : 2023-12-14 16:44:50  	[MsgId: MMSG-26992]
+LOCAL start date/time       : 2023-12-14 22:14:50  	[MsgId: MMSG-26991]
+Local daylight-Savings-Time : No  	[MsgId: MMSG-26990]
+Some of the Runtime Settings:  	[MsgId: MMSG-27142]
+    Download non-HTML resources: Yes  	[MsgId: MMSG-27018]
+    Verification checks: No  	[MsgId: MMSG-27017]
+    Convert from/to UTF-8: No  	[MsgId: MMSG-27016]
+    Simulate a new user each iteration: Yes  	[MsgId: MMSG-27009]
+    Non-critical item errors as warnings: Yes  	[MsgId: MMSG-27008]
+    HTTP errors as warnings: No  	[MsgId: MMSG-27007]
+    WinInet replay instead of Sockets: No  	[MsgId: MMSG-27006]
+    HTTP version: 1.1  	[MsgId: MMSG-27005]
+    Keep-Alive HTTP connections: Yes  	[MsgId: MMSG-27004]
+    Max self Meta refresh updates: 2  	[MsgId: MMSG-27003]
+    Obtaining the proxy settings from the default browser: No proxy is used (direct connection to the Internet)  	[MsgId: MMSG-26845]
+    DNS caching: Yes  	[MsgId: MMSG-27035]
+    Simulate browser cache: Yes  	[MsgId: MMSG-27034]
+        Cache URLs requiring content (e.g., HTMLs): Yes  	[MsgId: MMSG-27033]
+            Additional URLs requiring content: None  	[MsgId: MMSG-27032]
+        Check for newer versions every visit to the page: No  	[MsgId: MMSG-27031]
+    Page download timeout (sec): 120  	[MsgId: MMSG-27030]
+    Resource Page Timeout is a Warning: No  	[MsgId: MMSG-27029]
+    ContentCheck enabled: Yes  	[MsgId: MMSG-27028]
+    ContentCheck script-level file: "C:\Users\ADMIN\OneDrive\Documents\VuGen\Scripts\WebHttpHtml67\LrwiAedScript.xml"  	[MsgId: MMSG-27027]
+    Enable Web Page Breakdown: Yes  	[MsgId: MMSG-27026]
+    Enable connection data points: Yes  	[MsgId: MMSG-27023]
+    Process socket after reschedule: Yes  	[MsgId: MMSG-27022]
+    Snapshot on error: No  	[MsgId: MMSG-27021]
+    Define each step as a transaction: No  	[MsgId: MMSG-27020]
+    Read beyond Content-Length: No  	[MsgId: MMSG-26994]
+    Parse HTML Content-Type: TEXT  	[MsgId: MMSG-26999]
+    Graph hits per second and HTTP status codes: Yes  	[MsgId: MMSG-26998]
+    Graph response bytes per second: Yes  	[MsgId: MMSG-26997]
+    Graph pages per second: No  	[MsgId: MMSG-26996]
+    Web recorder version ID: 8  	[MsgId: MMSG-26995]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(3): Notify: Saving Parameter "Transaction_Name = GET_freetogame".
+Action.c(4): Notify: Parameter Substitution: parameter "Transaction_Name" =  "GET_freetogame"
+Action.c(4): Notify: Transaction "GET_freetogame" started.
+Action.c(6): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(6): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(9): web_reg_save_param_json started  	[MsgId: MMSG-26355]
+Action.c(9): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
+Action.c(10): web_reg_save_param_json started  	[MsgId: MMSG-26355]
+Action.c(10): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
+Action.c(11): web_reg_save_param_json started  	[MsgId: MMSG-26355]
+Action.c(11): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
+Action.c(12): web_reg_save_param_json started  	[MsgId: MMSG-26355]
+Action.c(12): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
+Action.c(13): web_reg_save_param_json started  	[MsgId: MMSG-26355]
+Action.c(13): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
+Action.c(14): web_reg_save_param_json started  	[MsgId: MMSG-26355]
+Action.c(14): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
+Action.c(15): web_reg_save_param_json started  	[MsgId: MMSG-26355]
+Action.c(15): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
+Action.c(16): web_reg_save_param_json started  	[MsgId: MMSG-26355]
+Action.c(16): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
+Action.c(17): web_reg_save_param_json started  	[MsgId: MMSG-26355]
+Action.c(17): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
+Action.c(18): web_reg_save_param_json started  	[MsgId: MMSG-26355]
+Action.c(18): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
+Action.c(19): web_reg_save_param_json started  	[MsgId: MMSG-26355]
+Action.c(19): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
+Action.c(20): web_reg_save_param_json started  	[MsgId: MMSG-26355]
+Action.c(20): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
+Action.c(21): web_reg_save_param_json started  	[MsgId: MMSG-26355]
+Action.c(21): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
+Action.c(22): web_reg_save_param_json started  	[MsgId: MMSG-26355]
+Action.c(22): Registering web_reg_save_param_json was successful  	[MsgId: MMSG-26390]
+Action.c(28): web_custom_request("freetogame") started  	[MsgId: MMSG-26355]
+Action.c(28): Notify: Parameter Substitution: parameter "TD_Id" =  "450"
+Action.c(28): t=574ms: Connecting [0] to host 192.124.249.15:443  	[MsgId: MMSG-26000]
+Action.c(28): t=611ms: Connected socket [0] from 192.168.1.107:57335 to 192.124.249.15:443 in 37 ms  	[MsgId: MMSG-26000]
+Action.c(28): t=616ms: Trying to set SNI with servername www.freetogame.com  	[MsgId: MMSG-26000]
+Action.c(28): t=617ms: Setting SNI was succesful  	[MsgId: MMSG-26000]
+Action.c(28): The request to server https://www.freetogame.com/api/game?id=450" is done with headers:
+Action.c(28):     :method = GET
+Action.c(28):     :scheme = https
+Action.c(28):     :path = /api/game?id=450
+Action.c(28):     :authority = www.freetogame.com
+Action.c(28):     Referer = https://www.freetogame.com/api/game?id=455
+Action.c(28):     User-Agent = Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)
+Action.c(28):     Accept-Encoding = gzip, deflate
+Action.c(28):     Accept = */*
+Action.c(28): t=1036ms: 1156-byte response headers for "https://www.freetogame.com/api/game?id=450" (RelFrameId=1, Internal ID=1)
+Action.c(28):     HTTP/2.0 200\r\n
+Action.c(28):     Status: 200\r\n
+Action.c(28):     server: nginx\r\n
+Action.c(28):     date: Thu, 14 Dec 2023 16:44:55 GMT\r\n
+Action.c(28):     content-type: application/json\r\n
+Action.c(28):     x-sucuri-id: 22015\r\n
+Action.c(28):     x-xss-protection: 1; mode=block\r\n
+Action.c(28):     x-frame-options: SAMEORIGIN\r\n
+Action.c(28):     x-content-type-options: nosniff\r\n
+Action.c(28):     content-security-policy: upgrade-insecure-requests;\r\n
+Action.c(28):     cache-control: max-age=900\r\n
+Action.c(28):     vary: Accept-Encoding,User-Agent\r\n
+Action.c(28):     content-encoding: gzip\r\n
+Action.c(28):     x-xss-protection: 1; mode=block\r\n
+Action.c(28):     x-frame-options: sameorigin\r\n
+Action.c(28):     accept-encoding: gzip, deflate\r\n
+Action.c(28):     referer-policy: origin\r\n
+Action.c(28):     strict-transport-security: max-age=16070400; includeSubDomains\r\n
+Action.c(28):     x-ua-compatible: IE=edge,chrome=1\r\n
+Action.c(28):     x-permitted-cross-domain-policies: master-only\r\n
+Action.c(28):     x-content-type-options: nosniff\r\n
+Action.c(28):     x-download-options: noopen\r\n
+Action.c(28):     access-control-allow-methods: GET, POST\r\n
+Action.c(28):     content-security-policy: default-src 'self' 'unsafe-inline' *.googlesyndication.com *.doub
+Action.c(28):     leclick.net https://www.google.com https://www.google-analytics.com; script-src * 'unsafe-
+Action.c(28):     inline' 'unsafe-eval'; style-src * 'unsafe-inline'; img-src * data:; font-src * data:; obj
+Action.c(28):     ect-src 'self' 'unsafe-inline' *.googlesyndication.com *.doubleclick.net https://www.googl
+Action.c(28):     e.com https://www.google-analytics.com\r\n
+Action.c(28):     x-sucuri-cache: MISS\r\n
+Action.c(28):     \r\n
+Action.c(28): t=1043ms: 812-byte ENCODED response body received for "https://www.freetogame.com/api/game?id=450" (RelFrameId=1, Internal ID=1)
+Action.c(28): t=1049ms: 1724-byte DECODED response body for "https://www.freetogame.com/api/game?id=450" (RelFrameId=1, Internal ID=1)
+Action.c(28):     {"id":450,"title":"Battlerite Royale","thumbnail":"https:\\/\\/www.freetogame.com\\/g\\/45
+Action.c(28):     0\\/thumbnail.jpg","status":"Live","short_description":"A free to play battle royale set i
+Action.c(28):     n the Battlerite universe.","description":"Battle Royale meets MOBA in Stunlock Studio\\u2
+Action.c(28):     019s Battlerite Royale. Team up with friends, or go in on your own and fight to the last m
+Action.c(28):     an standing on a map 30X the size of the maps in the original Battlerite game. Use spells,
+Action.c(28):      potions, traps, and more to keep yourself alive and eliminate your foes. And be smart abo
+Action.c(28):     ut it.\\r\\n\\r\\nPlayers can choose from over 20 champions to play as, ranging from cute 
+Action.c(28):     little magical creatures to big tanky monsters \\u2014 and everything in between. As is st
+Action.c(28):     andard with battle royales, you will have to deal with a shrinking land mass \\u2014 this 
+Action.c(28):     time because of the Death Vortex. But don\\u2019t worry, you can get away faster if you us
+Action.c(28):     e use your loyal mount.","game_url":"https:\\/\\/www.freetogame.com\\/open\\/battlerite-ro
+Action.c(28):     yale","genre":"MOBA","platform":"Windows","publisher":"Stunlock Studios","developer":"Stun
+Action.c(28):     lock Studios","release_date":"2018-09-26","freetogame_profile_url":"https:\\/\\/www.freeto
+Action.c(28):     game.com\\/battlerite-royale","minimum_system_requirements":{"os":"Windows XP or newer","p
+Action.c(28):     rocessor":"Dual Core from Intel or AMD at 2.8 GHz","memory":"4 GB RAM","graphics":"Intel H
+Action.c(28):     D 3000","storage":"3 GB available space"},"screenshots":[{"id":1117,"image":"https:\\/\\/w
+Action.c(28):     ww.freetogame.com\\/g\\/450\\/Battlerite_Royale-1.jpg"},{"id":1118,"image":"https:\\/\\/ww
+Action.c(28):     w.freetogame.com\\/g\\/450\\/Battlerite_Royale-2.jpg"},{"id":1119,"image":"https:\\/\\/www
+Action.c(28):     .freetogame.com\\/g\\/450\\/Battlerite_Royale-3.jpg"},{"id":1120,"image":"https:\\/\\/www.
+Action.c(28):     freetogame.com\\/g\\/450\\/Battlerite_Royale-4.jpg"}]}
+Action.c(28): t=1051ms: 10-byte ENCODED response body received for "https://www.freetogame.com/api/game?id=450" (RelFrameId=1, Internal ID=1)
+Action.c(28): t=1381ms: Request done "https://www.freetogame.com/api/game?id=450"  	[MsgId: MMSG-26000]
+Action.c(28): Notify: Saving Parameter "LR_id = 450".
+Action.c(28): Notify: Saving Parameter "LR_title = Battlerite Royale".
+Action.c(28): Notify: Saving Parameter "LR_thumbnail = https://www.freetogame.com/g/450/thumbnail.jpg".
+Action.c(28): Notify: Saving Parameter "LR_status = Live".
+Action.c(28): Notify: Saving Parameter "LR_short_description = A free to play battle royale set in the Battlerite universe.".
+Action.c(28): Notify: Saving Parameter "LR_description = Battle Royale meets MOBA in Stunlock Studioâ\x80\x99s Battlerite Royale. Team up with friends, or go in on your own and fight to the last man standing on a map 30X the size of the maps in the original Battlerite game. Use spells, potions, traps, and more to keep yourself alive and eliminate your foes. And be smart about it.\r\n\r\nPlayers can choose from over 20 champions to play as, ranging from cute little magical creatures to big tanky monsters â\x80” and everything in between. As is standard with battle royales, you will have to deal with a shrinking land mass â\x80” this time because of the Death Vortex. But donâ\x80\x99t worry, you can get away faster if you use use your loyal mount.".
+Action.c(28): Notify: Saving Parameter "LR_game_url = https://www.freetogame.com/open/battlerite-royale".
+Action.c(28): Notify: Saving Parameter "LR_genre = MOBA".
+Action.c(28): Notify: Saving Parameter "LR_platform = Windows".
+Action.c(28): Notify: Saving Parameter "LR_publisher = Stunlock Studios".
+Action.c(28): Notify: Saving Parameter "LR_developer = Stunlock Studios".
+Action.c(28): Notify: Saving Parameter "LR_release_date = 2018-09-26".
+Action.c(28): Notify: Saving Parameter "LR_freetogame_profile_url = https://www.freetogame.com/battlerite-royale".
+Action.c(28): Notify: Saving Parameter "LR_screenshots = [{"id":1117,"image":"https://www.freetogame.com/g/450/Battlerite_Royale-1.jpg"},{"id":1118,"image":"https://www.freetogame.com/g/450/Battlerite_Royale-2.jpg"},{"id":1119,"image":"https://www.freetogame.com/g/450/Battlerite_Royale-3.jpg"},{"id":1120,"image":"https://www.freetogame.com/g/450/Battlerite_Royale-4.jpg"}]".
+Action.c(28): Registered web_reg_find successful for "Text=status" (count=1)  	[MsgId: MMSG-26364]
+Action.c(28): web_custom_request("freetogame") was successful, 822 body bytes, 1156 header bytes  	[MsgId: MMSG-26386]
+Action.c(38): Notify: Parameter Substitution: parameter "Transaction_Name" =  "GET_freetogame"
+Action.c(38): Notify: Transaction "GET_freetogame" ended with a "Pass" status (Duration: 1.2374 Wasted Time: 0.1652).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+t=1638ms: Closed connection [0] to www.freetogame.com:443 after completing 0 request(s)  	[MsgId: MMSG-26000]
